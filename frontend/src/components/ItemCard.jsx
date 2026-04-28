@@ -12,7 +12,7 @@ function ItemCard({ item, onDelete }) {
       <p><strong>Category:</strong> {item.category}</p>
       <p><strong>Price:</strong> ${item.price}</p>
       <p>{item.description}</p>
-      <p><strong>Warrenty Period:</strong> ${item.warrentyPeriod}</p>
+      <p><strong>Warrenty Period:</strong> {item.warrentyPeriod}</p>
 
       <div className="card-actions">
         <Link className="btn secondary" to={`/edit-item/${item._id}`}>Edit</Link>
